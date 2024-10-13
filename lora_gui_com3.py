@@ -60,6 +60,9 @@ def create_login_screen():
         if username == "admin" and password == "password":  # Simple validation
             login_screen.destroy()
             create_com3_gui()
+        elif username == "jason" and password == "123456":
+            login_screen.destroy()
+            create_com3_gui()
         else:
             tk.Label(login_screen, text="Invalid credentials, try again.").pack()
 
