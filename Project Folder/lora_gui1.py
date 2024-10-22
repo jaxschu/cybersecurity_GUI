@@ -3,7 +3,7 @@ import tkinter as tk
 from tkinter import scrolledtext
 
 # initialize serial COM
-ser_com = serial.Serial('COM6', 9600, timeout=1)
+ser_com = serial.Serial('COM3', 9600, timeout=1)
 def create_com_gui():
     # create a window for COM
     root_com = tk.Tk()
